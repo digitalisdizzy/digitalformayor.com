@@ -1,0 +1,77 @@
+.c_error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.c_test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.c_campaign1 {
+    background-image: url("https://picsum.photos/1000/500");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.c_campaign1 div {
+    color: white;
+    text-align: center;
+}
+
+.c_campaign1 div h1 {
+    font-size: max(8vh, 7vw);
+    font-weight: 900;
+}
+.c_campaign1 div h2 {
+    font-size: max(2vh, 2vw);
+    font-weight: 300;
+    font-style: italic;
+}
+
+.c_campaign2 {
+    position: relative;
+    overflow: hidden;
+
+    background-image: url("/assets/flagusa.png");
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-position: left;
+}
+
+.c_campaign2 div {
+    color: white;
+    text-align: center;
+    text-shadow: #000000 1px 0 10px;
+    z-index: 2;
+}
+
+.c_campaign2 div h1 {
+    font-size: max(8vh, 7vw);
+    font-weight: 900;
+}
+.c_campaign2 div h2 {
+    font-size: max(2vh, 2vw);
+    font-weight: 300;
+    font-style: italic;
+}
+
+.c_campaign2 img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30vh;
+    height: auto;
+}

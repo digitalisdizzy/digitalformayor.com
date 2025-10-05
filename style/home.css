@@ -1,0 +1,56 @@
+@import url("main.css");
+@import url("carosuel.css");
+
+#carosuel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 60vh;
+    min-width: 100%;
+    overflow: hidden;
+
+    margin-bottom: 3vh;
+}
+
+.carosuel_member {
+    width: 100%;
+    height: 100%;
+    flex: 0 0 auto;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.reason {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.reason .icon {
+    width: min(40%, 20vh);
+    height: auto;
+    filter: invert(1);
+}
+
+.reason .content {
+    width: 40%;
+}
+
+.reason .content h2 {
+    font-size: max(2vh, 1.5vw);
+    font-weight: 500;
+}
+
+.reason:nth-child(even) {
+    text-align: right;
+}
+.reason:nth-child(odd) {
+    text-align: left;
+}

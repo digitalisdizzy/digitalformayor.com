@@ -1,0 +1,17 @@
+@import url("/style/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+:root {
+    font-family: "Alan Sans";
+}
+
+body {
+    background-color: rgb(225, 237, 247);
+}
+
+h1 {
+    font-size: max(3vh, 2vw);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2vh;
+}

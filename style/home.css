@@ -37,6 +37,7 @@ main {
     width: min(40%, 20vh);
     height: auto;
     filter: invert(1);
+    transition: width 0.5s;
 }
 
 .reason .content {
@@ -45,7 +46,17 @@ main {
 
 .reason .content h2 {
     font-size: max(2vh, 1.5vw);
-    font-weight: 500;
+    font-weight: 600;
+    transition: font-size 0.5s,  font-weight 0.5s;
+}
+
+.reason:hover .content h2 {
+    font-size: max(2.5vh, 2vw);
+    font-weight: 700;
+}
+
+.reason:hover .icon {
+    width: min(50%, 25vh);
 }
 
 .reason:nth-child(even) {

@@ -1,5 +1,5 @@
 @import url("/style/reset.css");
-@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Alfa+Slab+One&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
     font-family: "Zalando Sans";
@@ -41,4 +41,8 @@ em, i {
 .alan {
     font-family: "Alan Sans";
     font-weight: 650;
+}
+
+.alfa-slab {
+    font-weight: "Alfa Slab One";
 }

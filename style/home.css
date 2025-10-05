@@ -9,8 +9,6 @@
     height: 60vh;
     min-width: 100%;
     overflow: hidden;
-
-    margin-bottom: 3vh;
 }
 
 .carosuel_member {
@@ -64,4 +62,51 @@ main {
 }
 .reason:nth-child(odd) {
     text-align: left;
+}
+
+.links {
+    background-color: rgb(139, 21, 21);
+    font-family: "Alfa Slab One";
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 3vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    transition: padding-top 0.5s, padding-bottom 0.5s;
+}
+
+.links:hover {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.links * {
+    color: white;
+    text-decoration: none;
+    font-size: 3.5vh;
+}
+
+.links a {
+    transition: font-size 0.5s;
+}
+
+.links a:hover {
+    font-size: 3.7vh;
+}
+
+@media (aspect-ratio < 1){
+    .links {
+        flex-direction: column;
+    }
+    .links i {
+        padding-top: 0.5vh;
+        padding-bottom: 0.5vh;
+    }
 }

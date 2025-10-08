@@ -65,7 +65,8 @@
 .c_campaign2 div h2 {
     font-size: max(2vh, 2vw);
     font-weight: 800;
-    color: rgb(212, 50, 50)
+    color: rgb(212, 50, 50);
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 0 5px;
 }
 
 .c_campaign2 img {
@@ -74,6 +75,26 @@
     bottom: 0;
     width: 30vh;
     height: auto;
+}
+
+.c_campaign2 div div {
+    height: 2vh;
+}
+
+.c_campaign2 div a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(115, 138, 238);
+    border-radius: 5vh;
+    box-shadow: #000000 1px 0 10px;
+    padding: 0.5vh 1vw;
+    font-size: max(1vh, 1vw);
+
+    transition: padding 0.5s;
+}
+
+.c_campaign2 div a:hover {
+    padding: 0.7vh 1.2vw;
 }
 
 .c_voteforthevotewin {

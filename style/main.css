@@ -46,3 +46,67 @@ em, i {
 .alfa-slab {
     font-weight: "Alfa Slab One";
 }
+
+header {
+    width: 100vw;
+    height: 5vh;
+    /* background-color: magenta; */
+    overflow: hidden;
+    margin-top: 1vh;
+
+    margin-bottom: 2vh;
+}
+
+header a {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    /* background-color: blue; */
+    text-decoration: none;
+    margin-left: 1vw;
+}
+
+header a h1 {
+    font-size: max(2vh, 1.5vw);
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    /* background-color: aqua; */
+    padding: 0.5%;
+    text-shadow: #000000 4px 0 1px;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header a h1 span:nth-child(odd) {
+    text-shadow: #ff7979 4px 0 1px;
+}
+header a h1 span:nth-child(even) {
+    text-shadow: #79b3ff 4px 0 1px;
+}
+
+header a img {
+    height: 100%;
+    width: auto;
+    /* background-color: brown; */
+}
+
+hr {
+    border-style: solid;
+    width: 30%;
+    margin-left: 0;
+}
+
+i, em {
+    font-style: italic;
+}
+
+b, strong {
+    font-weight: 600;
+}

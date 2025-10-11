@@ -61,8 +61,15 @@
     font-size: max(8vh, 7vw);
     font-weight: 900;
     text-shadow: #000000 1px 0 10px;
+    margin-bottom: 0;
 }
 .c_campaign2 div h2 {
+    font-size: max(2.5vh, 2.5vw);
+    font-weight: 800;
+    text-shadow: #000000 1px 0 10px;
+    margin-bottom: 4vh;
+}
+.c_campaign2 div h3 {
     font-size: max(2vh, 2vw);
     font-weight: 800;
     color: rgb(212, 50, 50);
@@ -78,7 +85,7 @@
 }
 
 .c_campaign2 div div {
-    height: 2vh;
+    height: 4vh;
 }
 
 .c_campaign2 div a {
@@ -87,14 +94,14 @@
     background-color: rgb(115, 138, 238);
     border-radius: 5vh;
     box-shadow: #000000 1px 0 10px;
-    padding: 0.5vh 1vw;
-    font-size: max(1vh, 1vw);
+    padding: max(0.7vh, 0.5vw) max(2vh, 1vw);
+    font-size: max(1.4vh, 1.4vw);
 
-    transition: padding 0.5s;
+    transition: padding 0.2s;
 }
 
 .c_campaign2 div a:hover {
-    padding: 0.7vh 1.2vw;
+    padding: max(0.8vh, 0.6vw) max(2.2vh, 1.2vw);
 }
 
 .c_voteforthevotewin {
